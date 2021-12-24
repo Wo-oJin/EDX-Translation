@@ -1,0 +1,900 @@
+# edX translation file.
+# Copyright (C) 2021 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# bossnm11 <bossnm11@gmail.com>, 2014
+# mariana1201 <gogo3135@naver.com>, 2014
+# kmooc <shevious@gmail.com>, 2015
+# shevious <shevious@yahoo.com>, 2015
+# Hongseob Lee <shevreg@yahoo.com>, 2015
+# Jong-Dae Park <jdpark7@gmail.com>, 2013
+# jeon <bluerespect@nate.com>, 2014-2015
+# Gu Hong Min <placidmoon1@gmail.com>, 2015
+# eddie94 <myeddie@naver.com>, 2018
+# kmooc <shevious@gmail.com>, 2016
+# 31b8d27abb93dede0220e915427f8870_95840c8, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2021-12-19 20:42+0000\n"
+"PO-Revision-Date: 2021-12-19 20:44+0000\n"
+"Last-Translator: edx_transifex_bot <i18n-working-group+edx-transifex-bot@edx.org>\n"
+"Language-Team: Korean (Korea) (http://www.transifex.com/open-edx/edx-platform/language/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/djangoapps/api/v1/serializers/course_runs.py:48
+msgid "Course team user does not exist"
+msgstr "강좌 팀 사용자가 존재하지 않습니다"
+
+#: cms/djangoapps/contentstore/admin.py:41
+#, python-brace-format
+msgid ""
+"Number of course outline regenerations successfully requested: {regenerates}"
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py:45
+msgid "Regenerate selected course outlines"
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py:53
+msgid "All course outline regenerations successfully requested."
+msgstr ""
+
+#: cms/djangoapps/contentstore/admin.py:54
+msgid "Regenerate *all* course outlines"
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_group_config.py:27
+msgid ""
+"The groups in this configuration can be mapped to cohorts in the Instructor "
+"Dashboard."
+msgstr "이 설정의 그룹은 강사의 대쉬보드에 존재하는 학습 집단에 매핑 될수 있습니다."
+
+#: cms/djangoapps/contentstore/course_group_config.py:30
+msgid "Content Groups"
+msgstr "콘텐츠 그룹"
+
+#: cms/djangoapps/contentstore/course_group_config.py:65
+#: cms/djangoapps/contentstore/views/certificates.py:141
+msgid "invalid JSON"
+msgstr "유효하지 않은 JSON"
+
+#: cms/djangoapps/contentstore/course_group_config.py:74
+msgid "must have name of the configuration"
+msgstr "설정 이름을 가져야 합니다."
+
+#: cms/djangoapps/contentstore/course_group_config.py:76
+msgid "must have at least one group"
+msgstr "적어도 한 그룹이 있어야 합니다."
+
+#: cms/djangoapps/contentstore/course_group_config.py:114
+msgid "unable to load this type of group configuration"
+msgstr ""
+
+#: cms/djangoapps/contentstore/course_info_model.py:73
+#: cms/djangoapps/contentstore/course_info_model.py:148
+msgid "Invalid course update id."
+msgstr "유효하지 않은 강좌 업데이트 ID"
+
+#: cms/djangoapps/contentstore/course_info_model.py:115
+msgid "Course update not found."
+msgstr "강좌 업데이트가 없습니다."
+
+#: cms/djangoapps/contentstore/courseware_index.py:246
+msgid "Could not index item: {}"
+msgstr "해당 항목의 인덱스를 생성할 수 없습니다. : {}"
+
+#: cms/djangoapps/contentstore/courseware_index.py:268
+msgid "General indexing error occurred"
+msgstr "General Indexing 오류가 발생했습니다."
+
+#: cms/djangoapps/contentstore/courseware_index.py:351
+msgid "(Unnamed)"
+msgstr "(이름 없음)"
+
+#: cms/djangoapps/contentstore/errors.py:6
+msgid "Aborting import because a course with this id: {} already exists."
+msgstr ""
+
+#: cms/djangoapps/contentstore/errors.py:7
+msgid "Permission denied. You do not have write access to this course."
+msgstr ""
+
+#: cms/djangoapps/contentstore/errors.py:8
+#, python-brace-format
+msgid "Could not find the {0} file in the package."
+msgstr "패키지에서  {0} 을 발견할 수 없습니다."
+
+#: cms/djangoapps/contentstore/errors.py:9
+msgid "Uploaded Tar file not found. Try again."
+msgstr ""
+
+#: cms/djangoapps/contentstore/errors.py:10
+#: cms/djangoapps/contentstore/views/import_export.py:141
+msgid "We only support uploading a .tar.gz file."
+msgstr "하나의 .tar.gz 파일 업로딩만 지원합니다. "
+
+#: cms/djangoapps/contentstore/errors.py:11
+msgid "Aborting import since a library with this id already exists."
+msgstr ""
+
+#: cms/djangoapps/contentstore/errors.py:12
+msgid "Course olx validation failed. Please check your email."
+msgstr ""
+
+#: cms/djangoapps/contentstore/errors.py:13
+msgid "Permission denied"
+msgstr "사용 권한이 거부되었습니다"
+
+#: cms/djangoapps/contentstore/errors.py:14
+msgid "Unknown error while importing course."
+msgstr ""
+
+#: cms/djangoapps/contentstore/errors.py:15
+msgid "An Unknown error occurred during the unpacking step."
+msgstr ""
+
+#: cms/djangoapps/contentstore/errors.py:16
+#, python-brace-format
+msgid "Unknown User ID: {0}"
+msgstr "미확인 학습자 ID: {0}"
+
+#: cms/djangoapps/contentstore/errors.py:17
+msgid "Unsafe tar file. Aborting import."
+msgstr "안전하지 않은 tar 파일입니다. 가져오기를 취소합니다."
+
+#: cms/djangoapps/contentstore/errors.py:18
+msgid "User permission denied."
+msgstr ""
+
+#: cms/djangoapps/contentstore/git_export_utils.py:36
+#, python-brace-format
+msgid ""
+"GIT_REPO_EXPORT_DIR not set or path {0} doesn't exist, please create it, or "
+"configure a different path with GIT_REPO_EXPORT_DIR"
+msgstr "GIT_REPO_EXPORT_DIR 이 설정이 안되었거나 path {0} 가 존재하지 않습니다, 그것을 생성하거나, 다른 경로의 GIT_REPO_EXPORT_DIR 를 설정하세요"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:39
+msgid ""
+"Non writable git url provided. Expecting something like: "
+"git@github.com:edx/edx4edx_lite.git"
+msgstr ""
+
+#: cms/djangoapps/contentstore/git_export_utils.py:41
+msgid ""
+"If using http urls, you must provide the username and password in the url. "
+"Similar to https://user:pass@github.com/user/course."
+msgstr "http URL이용시,  URL에 아이디와 비밀번호를 입력해야 합니다. \nhttps://user:pass@github.com/user/course 와 같이 입력하면 됩니다."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:44
+msgid "Unable to determine branch, repo in detached HEAD mode"
+msgstr "detached HEAD 모드에서 branch, repo를 결정할 수 없음, "
+
+#: cms/djangoapps/contentstore/git_export_utils.py:45
+msgid "Unable to update or clone git repository."
+msgstr "git 저장소를 업데이트 혹은 복사할 수 없음."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:46
+msgid "Unable to export course to xml."
+msgstr "강좌를 xml로 내보낼 수 없습니다."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:47
+msgid "Unable to configure git username and password"
+msgstr "git 아이디와 비밀번호를 설정할 수 없습니다."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:48
+msgid ""
+"Unable to commit changes. This is usually because there are no changes to be"
+" committed"
+msgstr "변경사항을 수행할수 없음. 이것은 보통 수행된 변경사항이 없기 때문입니다."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:50
+msgid ""
+"Unable to push changes.  This is usually because the remote repository "
+"cannot be contacted"
+msgstr "변경사항을 적용할 수 없습니다. 이는 주로 원격 저장소가 연결되지 않았기 때문에 발생합니다."
+
+#: cms/djangoapps/contentstore/git_export_utils.py:52
+msgid "Bad course location provided"
+msgstr "잘못된 강좌 위치입니다"
+
+#: cms/djangoapps/contentstore/git_export_utils.py:53
+msgid "Missing branch on fresh clone"
+msgstr "fresh clone상에서 branch가 없음"
+
+#: cms/djangoapps/contentstore/management/commands/git_export.py:33
+msgid ""
+"Take the specified course and attempt to export it to a git repository\n"
+". Course directory must already be a git repository. Usage:  git_export <course_loc> <git_url>"
+msgstr "특정 강좌를 선택해서 그것을 git 저장소에 내보내기 해보세요. 강좌 디렉토리가 git 저장소에 있을 것입니다. 사용법:git_export <course_loc> <git_url>"
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:47
+msgid "Marks a field as deprecated."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:48
+msgid "User-friendly display name for the field"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/advanced_settings.py:49
+msgid "Help text that describes the setting."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:14
+msgid "Tab type"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:15
+msgid "Default name for the tab displayed to users"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:18
+msgid "True if it's possible to hide the tab for a course"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:21
+msgid "True the tab is hidden for the course"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:25
+msgid "True if it's possible to reorder the tab in the list of tabs"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:29
+msgid "True if this tab should be displayed only for instructors"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:33
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:37
+msgid "Name of the tab displayed to users. Overrides title."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:41
+msgid "Additional settings specific to the tab"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:74
+msgid "ID of tab to update"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:75
+msgid "Location (Usage Key) of tab to update"
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:89
+msgid "Need to supply either a valid tab_id or a tab_location."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/serializers/tabs.py:100
+msgid "True to hide the tab, and False to show it."
+msgstr ""
+
+#: cms/djangoapps/contentstore/rest_api/v0/views/tabs.py:104
+msgid "Change the visibility of tabs in a course."
+msgstr ""
+
+#: cms/djangoapps/contentstore/utils.py:471
+msgid "Deleted Group"
+msgstr "삭제된 집단"
+
+#. Translators: This is building up a list of groups. It is marked for
+#. translation because of the
+#. comma, which is used as a separator between each group.
+#: cms/djangoapps/contentstore/utils.py:536
+#, python-brace-format
+msgid "{previous_groups}, {current_group}"
+msgstr "{previous_groups}, {current_group}"
+
+#: cms/djangoapps/contentstore/video_utils.py:42
+msgid "The image must have name, content type, and size information."
+msgstr "사진은 이름, 형식, 크기 정보를 포함해야 됩니다."
+
+#: cms/djangoapps/contentstore/video_utils.py:44
+#, python-brace-format
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supported_file_formats}."
+msgstr "지원하지 않는 이미지 파일 형식입니다. 지원되는 형식은 {supported_file_formats} 입니다."
+
+#: cms/djangoapps/contentstore/video_utils.py:48
+#, python-brace-format
+msgid "This image file must be smaller than {image_max_size}."
+msgstr "이미지 파일 용량은 {image_max_size}보다 작아야 합니다."
+
+#: cms/djangoapps/contentstore/video_utils.py:52
+#, python-brace-format
+msgid "This image file must be larger than {image_min_size}."
+msgstr "이 이미지 파일 용량은 {image_min_size}보다 커야 합니다."
+
+#: cms/djangoapps/contentstore/video_utils.py:59
+#: cms/djangoapps/contentstore/video_utils.py:61
+msgid ""
+"There is a problem with this image file. Try to upload a different file."
+msgstr "이미지 파일에 문제가 있습니다. 다른 파일을 업로드해주세요."
+
+#: cms/djangoapps/contentstore/video_utils.py:64
+#, python-brace-format
+msgid ""
+"Recommended image resolution is "
+"{image_file_max_width}x{image_file_max_height}. The minimum resolution is "
+"{image_file_min_width}x{image_file_min_height}."
+msgstr "추천하는 이미지 해상도는 {image_file_max_width}x{image_file_max_height} 입니다. 최소 해상도는 {image_file_min_width}x{image_file_min_height} 입니다."
+
+#: cms/djangoapps/contentstore/video_utils.py:72
+#, python-brace-format
+msgid ""
+"This image file must have an aspect ratio of "
+"{video_image_aspect_ratio_text}."
+msgstr "이미지 파일은 {video_image_aspect_ratio_text}의 종횡비이어야 합니다."
+
+#: cms/djangoapps/contentstore/video_utils.py:79
+msgid ""
+"The image file name can only contain letters, numbers, hyphens (-), and "
+"underscores (_)."
+msgstr "이미지 파일 이름은 문자, 숫자, 하이픈(-), 언더바(_) 만 포함할 수 있습니다."
+
+#: cms/djangoapps/contentstore/views/assets.py:431
+msgid "Upload completed"
+msgstr "업로드 완료"
+
+#: cms/djangoapps/contentstore/views/assets.py:475
+#, python-brace-format
+msgid ""
+"File {filename} exceeds maximum size of {maximum_size_in_megabytes} MB."
+msgstr "{filename}파일은 최대 사이즈인 {maximum_size_in_megabytes} MB를 초과하였습니다."
+
+#: cms/djangoapps/contentstore/views/certificates.py:164
+msgid "must have name of the certificate"
+msgstr "이수증의 이름이 필요합니다."
+
+#: cms/djangoapps/contentstore/views/certificates.py:249
+#, python-brace-format
+msgid "Certificate dict {0} missing value key '{1}'"
+msgstr "Certificate dict {0} missing value key '{1}'"
+
+#: cms/djangoapps/contentstore/views/certificates.py:354
+#: cms/djangoapps/contentstore/views/certificates.py:392
+#, python-brace-format
+msgid "PermissionDenied: Failed in authenticating {user}"
+msgstr "PermissionDenied: Failed in authenticating {user}"
+
+#: cms/djangoapps/contentstore/views/component.py:273
+#, python-brace-format
+msgid "{platform_name} Support Levels:"
+msgstr "{platform_name} 지원 수준:"
+
+#: cms/djangoapps/contentstore/views/component.py:281
+msgid "Open Response"
+msgstr "개방형 답변"
+
+#: cms/djangoapps/contentstore/views/component.py:315
+msgid "Blank"
+msgstr "공란"
+
+#: cms/djangoapps/contentstore/views/component.py:318
+msgid "Blank Open Response Assessment"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/course.py:350
+msgid "Course has been successfully reindexed."
+msgstr "강좌가 성공적으로 재인댁스가 이루어졌습니다."
+
+#: cms/djangoapps/contentstore/views/course.py:687
+msgid "Set Date"
+msgstr "날짜 설정"
+
+#: cms/djangoapps/contentstore/views/course.py:867
+msgid ""
+"Special characters not allowed in organization, course number, and course "
+"run."
+msgstr "기관, 강좌 번호, 기관별 강좌 번호에 특수문자를 사용할 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/course.py:903
+msgid ""
+"There is already a course defined with the same organization and course "
+"number. Please change either organization or course number to be unique."
+msgstr "동일 기관, 강좌 번호, 기관별 강좌 번호로 이미 다른 강좌가 있습니다. 기관이나 강좌 번호가 유일하도록 변경하세요"
+
+#: cms/djangoapps/contentstore/views/course.py:908
+#: cms/djangoapps/contentstore/views/course.py:911
+msgid ""
+"Please change either the organization or course number so that it is unique."
+msgstr "기관이나 강좌 번호가 유일하도록 변경하십시오."
+
+#: cms/djangoapps/contentstore/views/course.py:916
+#, python-brace-format
+msgid ""
+"Unable to create course '{name}'.\n"
+"\n"
+"{err}"
+msgstr "강좌 '{name}'를 생성할 수 없음\n\n\n{err}"
+
+#: cms/djangoapps/contentstore/views/course.py:928
+msgid ""
+"User does not have the permission to create courses in this organization or "
+"course creation is disabled"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/course.py:945
+msgid ""
+"You must link this course to an organization in order to continue. "
+"Organization you selected does not exist in the system, you will need to add"
+" it to the system"
+msgstr "계속하기 위해서 이 강좌를 기관에 링크시켜야 합니다. 선택한 기관이 시스템에 존재하지 않으므로 추가해야 합니다."
+
+#: cms/djangoapps/contentstore/views/course.py:1229
+msgid "Invalid prerequisite course key"
+msgstr "선수 강좌 키가 유효하지 않습니다."
+
+#: cms/djangoapps/contentstore/views/course.py:1456
+msgid "An error occurred while trying to save your tabs"
+msgstr "탭을 저장하는 동안 오류가 발생했습니다."
+
+#: cms/djangoapps/contentstore/views/course.py:1457
+msgid "Tabs Exception"
+msgstr "Tabs 예외"
+
+#: cms/djangoapps/contentstore/views/course.py:1679
+msgid "This group configuration is in use and cannot be deleted."
+msgstr "그룹 설정이 사용중이어서 삭제할 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/course.py:1693
+msgid "This content group is in use and cannot be deleted."
+msgstr "콘텐츠 그룹이 사용중이어서 삭제할 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/entrance_exam.py:158
+msgid "Entrance Exam - Subsection"
+msgstr "사전 평가 - 소주제"
+
+#: cms/djangoapps/contentstore/views/entrance_exam.py:252
+msgid "Completed Course Entrance Exam"
+msgstr "강좌 사전 평가 완료"
+
+#: cms/djangoapps/contentstore/views/export_git.py:47
+msgid "Course successfully exported to git repository"
+msgstr "강좌가 git 저장소에 성공적으로 내보내기 되었습니다."
+
+#: cms/djangoapps/contentstore/views/helpers.py:128
+msgid "Vertical"
+msgstr "수직의 "
+
+#: cms/djangoapps/contentstore/views/helpers.py:132
+msgid "Section"
+msgstr "주제"
+
+#: cms/djangoapps/contentstore/views/helpers.py:134
+msgid "Subsection"
+msgstr "소주제"
+
+#: cms/djangoapps/contentstore/views/import_export.py:170
+msgid "Some chunks missed during file upload. Please try again"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/import_export.py:181
+msgid "File upload failed. Please try again"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:233
+#: cms/djangoapps/contentstore/views/item.py:723
+#, python-brace-format
+msgid "Libraries cannot have more than {limit} components"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/item.py:623
+msgid "Invalid data"
+msgstr "유효하지 않은 데이터"
+
+#: cms/djangoapps/contentstore/views/item.py:625
+#, python-brace-format
+msgid "Invalid data ({details})"
+msgstr "유효하지 않은 데이터({details})"
+
+#: cms/djangoapps/contentstore/views/item.py:815
+#, python-brace-format
+msgid "You can not move {source_type} into {target_parent_type}."
+msgstr "{source_type}를 {target_parent_type}로 이동할 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/item.py:820
+msgid "Item is already present in target location."
+msgstr "현재위치에 동일한 항목이 존재합니다."
+
+#: cms/djangoapps/contentstore/views/item.py:822
+msgid "You can not move an item into itself."
+msgstr "항목을 자기자신으로 이동할 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/item.py:824
+msgid "You can not move an item into it's child."
+msgstr "항목을 하위 항목으로 이동할 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/item.py:826
+msgid "You can not move an item directly into content experiment."
+msgstr "콘텐츠 실험에 항목을 직접적으로 이동할 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/item.py:828
+#, python-brace-format
+msgid "{source_usage_key} not found in {parent_usage_key}."
+msgstr "{parent_usage_key}에서 {source_usage_key}를 찾을 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/item.py:836
+#, python-brace-format
+msgid ""
+"You can not move {source_usage_key} at an invalid index ({target_index})."
+msgstr "유효하지 않은 인덱스로 {source_usage_key}를 이동할 수 없습니다. ({target_index})."
+
+#: cms/djangoapps/contentstore/views/item.py:841
+#, python-brace-format
+msgid "You must provide target_index ({target_index}) as an integer."
+msgstr "target_index ({target_index})를 정수로 입력하세요."
+
+#: cms/djangoapps/contentstore/views/item.py:900
+#, python-brace-format
+msgid "Duplicate of {0}"
+msgstr "{0} 의 복사본"
+
+#: cms/djangoapps/contentstore/views/item.py:902
+#, python-brace-format
+msgid "Duplicate of '{0}'"
+msgstr "'{0}'의 Duplicate"
+
+#. Translators: The {pct_sign} here represents the percent sign, i.e., '%'
+#. in many languages. This is used to avoid Transifex's misinterpreting of
+#. '% o'. The percent sign is also translatable as a standalone string.
+#: cms/djangoapps/contentstore/views/item.py:1212
+#, python-brace-format
+msgid ""
+"Students must score {score}{pct_sign} or higher to access course materials."
+msgstr "학습자가 강좌를 수강하려면 {score}{pct_sign} 이상을 맞춰야 합니다. "
+
+#. Translators: This is the percent sign. It will be used to represent
+#. a percent value out of 100, e.g. "58%" means "58/100".
+#: cms/djangoapps/contentstore/views/item.py:1216
+msgid "%"
+msgstr "%"
+
+#: cms/djangoapps/contentstore/views/item.py:1591
+#, python-brace-format
+msgid "{section_or_subsection} \"{display_name}\""
+msgstr "{section_or_subsection} \"{display_name}\""
+
+#: cms/djangoapps/contentstore/views/library.py:220
+msgid ""
+"User does not have the permission to create library in this organization or "
+"course creation is disabled"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/library.py:227
+#, python-brace-format
+msgid "Unable to create library - missing required field '{field}'"
+msgstr "콘텐츠 보관함을 만들 수 없습니다 - 빠진 {field} 항목이 필요합니다. "
+
+#: cms/djangoapps/contentstore/views/library.py:232
+#, python-brace-format
+msgid ""
+"Unable to create library '{name}'.\n"
+"\n"
+"{err}"
+msgstr "'{name}' 콘텐츠 보관함을 만들지 못하였습니다.\n\n{err}"
+
+#: cms/djangoapps/contentstore/views/library.py:238
+msgid ""
+"There is already a library defined with the same organization and library "
+"code. Please change your library code so that it is unique within your "
+"organization."
+msgstr "이미 동일 기관에서 정의된 도서관과 도서관 코드가 있습니다. 기관내에서 고유한 도서관 코드를 입력해서 변경해 주세요."
+
+#: cms/djangoapps/contentstore/views/library.py:247
+#, python-brace-format
+msgid "'{organization_key}' is not a valid organization identifier."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/preview.py:287
+#, python-brace-format
+msgid "Access restricted to: {list_of_groups}"
+msgstr "접근이 한정되어 있습니다: {list_of_groups}"
+
+#: cms/djangoapps/contentstore/views/transcript_settings.py:130
+msgid "The information you entered is incorrect."
+msgstr "입력하신 정보가 정확하지 않습니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:148
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:468
+msgid "Transcripts are supported only for \"video\" modules."
+msgstr "자막은 동영상 모듈에서만 지원됩니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:150
+msgid "Cannot find item by locator."
+msgstr "이 위치의 항목을 찾을 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:171
+msgid "Video locator is required."
+msgstr "동영상의 위치가 필요합니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:175
+msgid "This transcript file type is not supported."
+msgstr "지원하지 자막 파일 형식입니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:177
+msgid "Video ID is required."
+msgstr "비디오 아이디가 필요합니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:460
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:502
+msgid "Incoming video data is empty."
+msgstr "들어오는 동영상 데이터가 비어있습니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:465
+msgid "Can't find item by locator."
+msgstr "이 위치의 항목을 찾을 수 없습니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:551
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:590
+msgid "No such transcript."
+msgstr "알수없는 자막."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:561
+msgid "There is a problem with the chosen transcript file."
+msgstr "자막 파일에 문제가 있습니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:601
+msgid ""
+"There is a problem with the existing transcript file. Please upload a "
+"different file."
+msgstr "존재하는 자막파일에 문제가 있습니다. 다른 파일을 업로드해주세요."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:621
+msgid "YouTube ID is required."
+msgstr "YouTube 아이디가 필요합니다."
+
+#: cms/djangoapps/contentstore/views/transcripts_ajax.py:638
+msgid "There is a problem with the YouTube transcript file."
+msgstr "YouTube 자막 파일에 문제가 있습니다."
+
+#: cms/djangoapps/contentstore/views/user.py:108
+msgid "Insufficient permissions"
+msgstr "불충분한 허가"
+
+#: cms/djangoapps/contentstore/views/user.py:120
+#, python-brace-format
+msgid "Could not find user by email address '{email}'."
+msgstr "이메일 주소 '{email}'로 사용자를 찾을 수 없습니다. "
+
+#: cms/djangoapps/contentstore/views/user.py:159
+msgid "No `role` specified."
+msgstr "`role`이 지정되지 않았습니다."
+
+#: cms/djangoapps/contentstore/views/user.py:164
+#, python-brace-format
+msgid "User {email} has registered but has not yet activated their account."
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/user.py:185
+msgid "Invalid `role` specified."
+msgstr "유효하지 않은 `role`이 지정되었습니다."
+
+#: cms/djangoapps/contentstore/views/user.py:189
+msgid "You may not remove the last Admin. Add another Admin first."
+msgstr "마지막 관리자를 제거할 수 없습니다. 다른 관리자를 추가하세요."
+
+#. Translators: This is the status of an active video upload
+#: cms/djangoapps/contentstore/views/videos.py:120
+msgid "Uploading"
+msgstr "업로딩"
+
+#. Translators: This is the status for a video that the servers are currently
+#. processing
+#: cms/djangoapps/contentstore/views/videos.py:122
+msgid "In Progress"
+msgstr "진행중"
+
+#. Translators: This is the status for a video that the servers have
+#. successfully processed
+#: cms/djangoapps/contentstore/views/videos.py:124
+msgid "Ready"
+msgstr "준비"
+
+#. Translators: This is the status for a video that is uploaded completely
+#: cms/djangoapps/contentstore/views/videos.py:126
+msgid "Uploaded"
+msgstr "업로드 완료"
+
+#. Translators: This is the status for a video that the servers have failed to
+#. process
+#: cms/djangoapps/contentstore/views/videos.py:128
+msgid "Failed"
+msgstr "실패"
+
+#. Translators: This is the status for a video that is cancelled during upload
+#. by user
+#: cms/djangoapps/contentstore/views/videos.py:130
+msgid "Cancelled"
+msgstr "취소됨"
+
+#. Translators: This is the status for a video which has failed
+#. due to being flagged as a duplicate by an external or internal CMS
+#: cms/djangoapps/contentstore/views/videos.py:133
+msgid "Failed Duplicate"
+msgstr "중복 실패"
+
+#. Translators: This is the status for a video which has duplicate token for
+#. youtube
+#: cms/djangoapps/contentstore/views/videos.py:135
+msgid "YouTube Duplicate"
+msgstr "YouTube 중복"
+
+#. Translators: This is the status for a video for which an invalid
+#. processing token was provided in the course settings
+#: cms/djangoapps/contentstore/views/videos.py:138
+msgid "Invalid Token"
+msgstr "유효하지 않은 토큰"
+
+#. Translators: This is the status for a video that was included in a course
+#. import
+#: cms/djangoapps/contentstore/views/videos.py:140
+msgid "Imported"
+msgstr "가져오기됨"
+
+#. Translators: This is the status for a video that is in an unknown state
+#: cms/djangoapps/contentstore/views/videos.py:142
+msgid "Unknown"
+msgstr "알수없음"
+
+#. Translators: This is the status for a video that is having its
+#. transcription in progress on servers
+#: cms/djangoapps/contentstore/views/videos.py:144
+msgid "Transcription in Progress"
+msgstr "자막 생성중입니다."
+
+#. Translators: This is the status for a video whose transcription is complete
+#: cms/djangoapps/contentstore/views/videos.py:146
+msgid "Transcript Ready"
+msgstr "자막 준비 완료"
+
+#. Translators: This is the status for a video whose transcription job was
+#. failed for some languages
+#: cms/djangoapps/contentstore/views/videos.py:148
+msgid "Partial Failure"
+msgstr ""
+
+#. Translators: This is the status for a video whose transcription job has
+#. failed altogether
+#: cms/djangoapps/contentstore/views/videos.py:150
+msgid "Transcript Failed"
+msgstr ""
+
+#: cms/djangoapps/contentstore/views/videos.py:252
+msgid "An image file is required."
+msgstr "이미지 파일이 필요합니다."
+
+#. Translators: This is the header for a CSV file column
+#. containing URLs for video encodings for the named profile
+#. (e.g. desktop, mobile high quality, mobile low quality)
+#: cms/djangoapps/contentstore/views/videos.py:411
+#, python-brace-format
+msgid "{profile_name} URL"
+msgstr "{profile_name} URL"
+
+#: cms/djangoapps/contentstore/views/videos.py:417
+msgid "Duration"
+msgstr "지속기간"
+
+#: cms/djangoapps/contentstore/views/videos.py:418
+msgid "Date Added"
+msgstr "추가된 날짜"
+
+#: cms/djangoapps/contentstore/views/videos.py:420
+msgid "Status"
+msgstr "상태"
+
+#. Translators: This is the suggested filename when downloading the URL
+#. listing for videos uploaded through Studio
+#: cms/djangoapps/contentstore/views/videos.py:466
+#, python-brace-format
+msgid "{course}_video_urls"
+msgstr "{course}_video_urls"
+
+#: cms/djangoapps/contentstore/views/videos.py:874
+msgid "A non zero positive integer is expected"
+msgstr ""
+
+#: cms/djangoapps/course_creators/models.py:40
+msgid "unrequested"
+msgstr "요청되지 않은"
+
+#: cms/djangoapps/course_creators/models.py:41
+msgid "pending"
+msgstr "유보중인"
+
+#: cms/djangoapps/course_creators/models.py:42
+msgid "granted"
+msgstr "부여됨"
+
+#: cms/djangoapps/course_creators/models.py:43
+msgid "denied"
+msgstr "거절됨"
+
+#: cms/djangoapps/course_creators/models.py:46
+msgid "Studio user"
+msgstr "스튜디오 사용자"
+
+#: cms/djangoapps/course_creators/models.py:48
+msgid "The date when state was last updated"
+msgstr "상태가 마지막으로 업데이트된 날짜"
+
+#: cms/djangoapps/course_creators/models.py:50
+msgid "Current course creator state"
+msgstr "현재 강좌 개설자 상태"
+
+#: cms/djangoapps/course_creators/models.py:51
+msgid ""
+"Optional notes about this user (for example, why course creation access was "
+"denied)"
+msgstr "사용자에 대한 선택적인 노트(예, 왜 강좌 생성 접근이 거부되었는지)"
+
+#: cms/djangoapps/course_creators/models.py:54
+msgid "Organizations under which the user is allowed to create courses."
+msgstr ""
+
+#: cms/djangoapps/course_creators/models.py:57
+msgid "Grant the user the permission to create courses in ALL organizations"
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py:35
+msgid "Force Publish Course"
+msgstr "강제로 강좌 공개"
+
+#: cms/djangoapps/maintenance/views.py:38
+msgid ""
+"Sometimes the draft and published branches of a course can get out of sync. "
+"Force publish course command resets the published branch of a course to "
+"point to the draft branch, effectively force publishing the course. This "
+"view dry runs the force publish command"
+msgstr "가끔 제작중인 강좌 및 공개된 강좌의 연결이 깨질 수 있습니다. 강좌를 강제로 공개하면 공개된 강좌를 제작중인 상태로 되돌릴 수 있습니다. 강제로 강좌 공개를 선택하면 강제 공개 테스트 창으로 연결됩니다."
+
+#: cms/djangoapps/maintenance/views.py:45
+msgid "Edit Announcements"
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py:48
+msgid ""
+"This view shows the announcement editor to create or alter announcements "
+"that are shown on the rightside of the dashboard."
+msgstr ""
+
+#: cms/djangoapps/maintenance/views.py:56
+msgid "Please provide course id."
+msgstr "강좌 아이디를 입력해주세요."
+
+#: cms/djangoapps/maintenance/views.py:57
+msgid "Invalid course key."
+msgstr "유효하지 않은 강좌키"
+
+#: cms/djangoapps/maintenance/views.py:58
+msgid "No matching course found."
+msgstr "일치하는 강좌가 없습니다."
+
+#: cms/djangoapps/maintenance/views.py:199
+msgid "Force publishing course is not supported with old mongo courses."
+msgstr "구버전 강좌에서는 강제 게시가 지원되지 않습니다."
+
+#: cms/djangoapps/maintenance/views.py:213
+msgid "Course is already in published state."
+msgstr "강좌가 이미 공개 상태입니다."
+
+#: cms/djangoapps/models/settings/course_metadata.py:222
+#, python-brace-format
+msgid "Incorrect format for field '{name}'. {detailed_message}"
+msgstr "잘못된 '{name}' 영역의 포맷. {detailed_message} "
+
+#: cms/lib/xblock/tagging/tagging.py:21
+msgid "Dictionary with the available tags"
+msgstr "사용가능한 태그 사전"
+
+#: cms/urls.py:28
+msgid "Studio Administration"
+msgstr "스튜디오 관리"
