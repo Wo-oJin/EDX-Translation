@@ -1,0 +1,1441 @@
+# edX translation file.
+# Copyright (C) 2021 EdX
+# This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
+# 
+# Translators:
+# SEUNGWON <baeksw0620@gmail.com>, 2014
+# bossnm11 <bossnm11@gmail.com>, 2014
+# 김우진 <dnwls813@ajou.ac.kr>, 2021
+# kmooc <shevious@gmail.com>, 2015
+# shevious <shevious@yahoo.com>, 2015
+# Jong-Dae Park <jdpark7@gmail.com>, 2013
+# jeon <bluerespect@nate.com>, 2014-2015
+# chans <kcsgoodboy@naver.com>, 2014
+# eddie94 <myeddie@naver.com>, 2018
+# seungil <luck8778@gmail.com>, 2014
+# roidog <jimroid@gmail.com>, 2015
+# kmooc <shevious@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: edx-platform\n"
+"Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
+"POT-Creation-Date: 2021-12-19 20:42+0000\n"
+"PO-Revision-Date: 2021-12-24 10:45+0000\n"
+"Last-Translator: 김우진 <dnwls813@ajou.ac.kr>\n"
+"Language-Team: Korean (Korea) (http://www.transifex.com/open-edx/edx-platform/language/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: cms/static/cms/js/main.js:47
+msgid "Studio's having trouble saving your work"
+msgstr "작업 저장중 오류가 발생했습니다."
+
+#: cms/static/cms/js/xblock/cms.runtime.v1.js:98
+msgid "OpenAssessment Save Error"
+msgstr "OpenAssessment 저장 오류"
+
+#: cms/static/js/base.js:99
+msgid "This link will open in a new browser window/tab"
+msgstr "링크가 새 브라우저 창/탭에서 열립니다."
+
+#: cms/static/js/base.js:106
+msgid "This link will open in a modal window"
+msgstr "이 링크는 모달 창에서 열립니다."
+
+#: cms/static/js/certificates/models/certificate.js:77
+msgid "Certificate name is required."
+msgstr "인증서 이름이 필요합니다."
+
+#: cms/static/js/certificates/models/certificate.js:86
+msgid "Signatory field(s) has invalid data."
+msgstr "서명인 필드(들)에 유효하지 않은 데이터가 있습니다."
+
+#: cms/static/js/certificates/views/certificate_details.js:45
+msgid "Edit this certificate?"
+msgstr "인증서를 편집하시겠습니까?"
+
+#: cms/static/js/certificates/views/certificate_details.js:46
+msgid ""
+"This certificate has already been activated and is live. Are you sure you "
+"want to continue editing?"
+msgstr "이미 사용되고 있는 인증서입니다. 편집을 계속하시겠습니까?"
+
+#: cms/static/js/certificates/views/certificate_details.js:47
+msgid "Yes, allow edits to the active Certificate"
+msgstr "사용중인 인증서 편집을 허용합니다."
+
+#. Translators: This field pertains to the custom label for a certificate.
+#. Translators: this refers to a collection of certificates.
+#: cms/static/js/certificates/views/certificate_item.js:21
+#: cms/static/js/certificates/views/certificates_list.js:16
+msgid "certificate"
+msgstr "인증서"
+
+#: cms/static/js/certificates/views/certificate_preview.js:41
+msgid "Deactivating"
+msgstr "비활성화"
+
+#: cms/static/js/certificates/views/certificates_list.js:18
+msgid "Set up your certificate"
+msgstr "인증서 설정하기"
+
+#. Translators: This line refers to the initial state of the form when no data
+#. has been inserted
+#: cms/static/js/certificates/views/certificates_list.js:21
+msgid "You have not created any certificates yet."
+msgstr "아직 인증서가 생성되지 않았습니다. "
+
+#: cms/static/js/certificates/views/signatory_editor.js:133
+msgid "Delete \"<%- signatoryName %>\" from the list of signatories?"
+msgstr "서명자 목록에서 \"<%- signatoryName %>\"을 삭제하시겠습니까?"
+
+#: cms/static/js/certificates/views/signatory_editor.js:136
+#: cms/static/js/views/course_info_update.js:237
+msgid "This action cannot be undone."
+msgstr "되돌릴 수 없습니다"
+
+#: cms/static/js/certificates/views/signatory_editor.js:142
+#: cms/static/js/views/course_info_update.js:248
+#: cms/static/js/views/list_item.js:63 cms/static/js/views/show_textbook.js:43
+#: cms/static/js/views/tabs.js:173
+#: cms/static/js/views/utils/xblock_utils.js:133
+msgid "Deleting"
+msgstr "삭제중"
+
+#: cms/static/js/certificates/views/signatory_editor.js:176
+msgid "Upload signature image."
+msgstr "서명 이미지 업로드하기"
+
+#: cms/static/js/certificates/views/signatory_editor.js:177
+msgid "Image must be in PNG format."
+msgstr "이미지는 반드시 PNG 형식이어야 합니다."
+
+#: cms/static/js/collections/group.js:42
+#, javascript-format
+msgid "Group %s"
+msgstr "그룹 %s"
+
+#. Translators: Dictionary used for creation ids that are used in
+#. default group names. For example: A, B, AA in Group A,
+#. Group B, ..., Group AA, etc.
+#: cms/static/js/collections/group.js:62
+msgid "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+msgstr "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+#: cms/static/js/factories/export.js:35
+msgid "Your export has failed."
+msgstr "내보내기에 실패했습니다."
+
+#: cms/static/js/factories/manage_users.js:10
+msgid "Already a course team member"
+msgstr "이미 강좌 운영팀의 구성원입니다."
+
+#: cms/static/js/factories/manage_users.js:12
+msgid ""
+"Are you sure you want to delete {email} from the course team for "
+"“{container}”?"
+msgstr " “{container}”에서 {email} 을 삭제하시겠습니까? "
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:21
+msgid "Staff"
+msgstr "운영팀"
+
+#: cms/static/js/factories/manage_users.js:19
+#: cms/static/js/factories/manage_users_lib.js:22
+msgid "Admin"
+msgstr "교수자"
+
+#: cms/static/js/factories/manage_users_lib.js:10
+msgid "Already a library team member"
+msgstr "이미 콘텐츠 보관함 구성원입니다."
+
+#: cms/static/js/factories/manage_users_lib.js:12
+msgid ""
+"Are you sure you want to delete {email} from the library “{container}”?"
+msgstr " “{container}”에서 {email} 을 삭제하시겠습니까? "
+
+#: cms/static/js/factories/manage_users_lib.js:20
+msgid "Library User"
+msgstr "콘텐츠 보관함 이용자"
+
+#: cms/static/js/factories/settings_advanced.js:40
+msgid "Hide Deprecated Settings"
+msgstr "부가기능 설정 감추기"
+
+#: cms/static/js/factories/settings_advanced.js:44
+msgid "Show Deprecated Settings"
+msgstr "부가기능 설정 보이기"
+
+#: cms/static/js/factories/textbooks.js:19
+#: cms/static/js/views/pages/group_configurations.js:82
+msgid "You have unsaved changes. Do you really want to leave this page?"
+msgstr "변경사항이 저장되지 않았습니다. 정말로 현재 페이지를 벗어나시겠습니까?"
+
+#: cms/static/js/features/import/factories/import.js:20
+msgid "There was an error during the upload process."
+msgstr "업로드 과정에서 오류가 발생했습니다."
+
+#: cms/static/js/features/import/factories/import.js:21
+msgid "There was an error while unpacking the file."
+msgstr "파일의 압축을 푸는 동안 오류가 발생했습니다."
+
+#: cms/static/js/features/import/factories/import.js:22
+msgid "There was an error while verifying the file you submitted."
+msgstr "제출된 파일을 검토하는 중 오류가 발생했습니다."
+
+#: cms/static/js/features/import/factories/import.js:31
+msgid "Choose new file"
+msgstr "새 파일 선택"
+
+#: cms/static/js/features/import/factories/import.js:46
+msgid ""
+"File format not supported. Please upload a file with a {ext} extension."
+msgstr "파일 형식이 지원되지 않습니다. 파일 확장자가 {ext}인 파일을 업로드하세요."
+
+#: cms/static/js/features/import/factories/import.js:54
+msgid "There was an error while importing the new library to our database."
+msgstr "새로운 콘텐츠 보관함을 데이터베이스로 보내는 동안 오류가 발생했습니다."
+
+#: cms/static/js/features/import/factories/import.js:56
+msgid "There was an error while importing the new course to our database."
+msgstr "새로운 강좌를 데이터베이스로 보내는 과정에서 오류가 발생했습니다."
+
+#: cms/static/js/features/import/factories/import.js:119
+msgid "Your import has failed."
+msgstr "가져오기 실패"
+
+#: cms/static/js/features/import/views/import.js:66
+msgid "Your import is in progress; navigating away will abort it."
+msgstr "가져오기가 진행중입니다. 다른 곳으로 가게되면 가져오기가 중단될 것입니다."
+
+#: cms/static/js/features/import/views/import.js:253
+msgid "Error importing course"
+msgstr "강좌 가져오는데 에러가 발생했습니다."
+
+#: cms/static/js/features/import/views/import.js:298
+msgid "There was an error with the upload"
+msgstr "업로드 중 오류가 발생했습니다."
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:23
+msgid "Organization:"
+msgstr "기관:"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:27
+msgid "Course Number:"
+msgstr "강좌 번호:"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:32
+msgid "Course Run:"
+msgstr "기관별 강좌 번호"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:37
+msgid "(Read-only)"
+msgstr "(읽기)"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:50
+msgid "Re-run Course"
+msgstr "강좌 다시 시작하기"
+
+#: cms/static/js/features_jsx/studio/CourseOrLibraryListing.jsx:60
+msgid "View Live"
+msgstr "적용 결과 보기"
+
+#: cms/static/js/maintenance/force_publish_course.js:75
+msgid "Internal Server Error."
+msgstr "내부 서버 오류."
+
+#. Translators: This is the status of a video upload that is queued
+#. waiting for other uploads to complete
+#: cms/static/js/models/active_video_upload.js:9
+msgid "Queued"
+msgstr "대기 중..."
+
+#. Translators: This is the status of a video upload that has
+#. completed successfully
+#: cms/static/js/models/active_video_upload.js:14
+msgid "Upload completed"
+msgstr "업로드 완료"
+
+#. Translators: This is the status of a video upload that has failed
+#: cms/static/js/models/active_video_upload.js:16
+msgid "Upload failed"
+msgstr "업로드 실패"
+
+#: cms/static/js/models/chapter.js:35
+msgid "Chapter name and asset_path are both required"
+msgstr "주제 이름과 asset_path 가 모두 필수 입력 사항입니다."
+
+#: cms/static/js/models/chapter.js:40
+msgid "Chapter name is required"
+msgstr "주제 이름은 필수 입력 사항입니다."
+
+#: cms/static/js/models/chapter.js:45
+msgid "asset_path is required"
+msgstr "asset_path 은 필수 입력 사항입니다."
+
+#: cms/static/js/models/course.js:8 cms/static/js/models/section.js:9
+msgid "You must specify a name"
+msgstr "이름을 명시해야 합니다."
+
+#: cms/static/js/models/course_update.js:12
+msgid "Action required: Enter a valid date."
+msgstr "유효한 날짜를 입력하세요."
+
+#: cms/static/js/models/group.js:40
+msgid "Group name is required"
+msgstr "그룹명이 필요합니다."
+
+#: cms/static/js/models/group_configuration.js:16
+msgid "Group A"
+msgstr "그룹 A"
+
+#: cms/static/js/models/group_configuration.js:20
+msgid "Group B"
+msgstr "그룹 B"
+
+#: cms/static/js/models/group_configuration.js:90
+msgid "Group Configuration name is required."
+msgstr "그룹 설정 이름이 필요합니다"
+
+#: cms/static/js/models/group_configuration.js:97
+msgid "There must be at least one group."
+msgstr "적어도 하나의 그룹은 존재해야 합니다."
+
+#: cms/static/js/models/group_configuration.js:114
+msgid "All groups must have a name."
+msgstr "모든 그룹은 이름을 가져야 합니다."
+
+#: cms/static/js/models/group_configuration.js:122
+msgid "All groups must have a unique name."
+msgstr "모든 그룹의 이름은 고유해야 합니다."
+
+#: cms/static/js/models/settings/course_details.js:58
+msgid "The course must have an assigned start date."
+msgstr "강좌는 할당된 개강일이 있어야 합니다."
+
+#: cms/static/js/models/settings/course_details.js:62
+msgid "The course end date must be later than the course start date."
+msgstr "종강일은 개강일 보다 이후가 되어야 합니다."
+
+#: cms/static/js/models/settings/course_details.js:67
+msgid "The course start date must be later than the enrollment start date."
+msgstr "개강일은 수강신청 시작일보다 늦어서는 안됩니다."
+
+#: cms/static/js/models/settings/course_details.js:73
+msgid "The enrollment start date cannot be after the enrollment end date."
+msgstr "강좌 등록 시작일은 강좌 등록 마감일 이후가 될 수 없습니다."
+
+#: cms/static/js/models/settings/course_details.js:77
+msgid "The enrollment end date cannot be after the course end date."
+msgstr "강좌 등록 마감일은 강좌 종료일 이후가 될 수 없습니다."
+
+#: cms/static/js/models/settings/course_details.js:82
+msgid "The certificate available date must be later than the course end date."
+msgstr "인증서 사용가능 날짜는 종강일 보다 이전이 되어야 합니다."
+
+#: cms/static/js/models/settings/course_details.js:94
+msgid "The certificate display behavior must be one of: {behavior_options}"
+msgstr "인증서의 표시 동작은 {behavior_options} 중 하나여야 합니다"
+
+#: cms/static/js/models/settings/course_details.js:109
+msgid ""
+"The certificates display behavior must be {valid_option} if certificate "
+"available date is set."
+msgstr "인증서 이용 가능 날짜가 설정된 경우 인증서의 표시 동작은 {valid_option}이어야 합니다."
+
+#: cms/static/js/models/settings/course_details.js:120
+msgid "Key should only contain letters, numbers, _, or -"
+msgstr "키는 글자,숫자,_ 혹은 - 만 포함할 수 있습니다."
+
+#: cms/static/js/models/settings/course_details.js:131
+msgid "Please enter an integer between %(min)s and %(max)s."
+msgstr "%(min)s 에서 %(max)s 사이의 정수를 입력하세요."
+
+#: cms/static/js/models/settings/course_grader.js:27
+msgid "The assignment type must have a name."
+msgstr "과제 형식은 반드시 이름을 가져야 합니다."
+
+#: cms/static/js/models/settings/course_grader.js:32
+msgid "There's already another assignment type with this name."
+msgstr "같은 이름의 과제가 이미 있습니다."
+
+#: cms/static/js/models/settings/course_grader.js:39
+msgid "Please enter an integer between 0 and 100."
+msgstr "0에서 100 사이의 정수를 입력하세요."
+
+#: cms/static/js/models/settings/course_grader.js:54
+msgid "Please enter an integer greater than 0."
+msgstr "0보다 큰 정수를 입력해주시기 바랍니다."
+
+#: cms/static/js/models/settings/course_grader.js:61
+msgid "Please enter non-negative integer."
+msgstr "음이 아닌 정수를 입력하세요."
+
+#: cms/static/js/models/settings/course_grader.js:66
+msgid "Cannot drop more <%- types %> assignments than are assigned."
+msgstr "할당된 수보다 더 많은 <%- types %> 을 삭제할 수 없습니다."
+
+#: cms/static/js/models/settings/course_grading_policy.js:76
+msgid "Grace period must be specified in HH:MM format."
+msgstr "추가 연장 기간은 HH:MM 형식으로 명시되어야 합니다."
+
+#: cms/static/js/models/settings/course_grading_policy.js:87
+msgid "Not able to set passing grade to less than %(minimum_grade_cutoff)s%."
+msgstr " %(minimum_grade_cutoff)s% 이하로 통과 성적을 설정할 수 없습니다."
+
+#: cms/static/js/models/textbook.js:62
+msgid "Textbook name is required"
+msgstr "교재 이름은 필수 입력 사항입니다."
+
+#: cms/static/js/models/textbook.js:68
+msgid "Please add at least one chapter"
+msgstr "하나 이상의 주제를 추가해야 합니다."
+
+#: cms/static/js/models/textbook.js:81
+msgid "All chapters must have a name and asset"
+msgstr "각 장은 이름과 파일이 제공되어야 합니다."
+
+#: cms/static/js/models/uploads.js:17
+msgid ""
+"Only <%- fileTypes %> files can be uploaded. Please select a file ending in "
+"<%- (fileExtensions) %> to upload."
+msgstr "<%- fileTypes %> 종류의 파일만 업로드 할 수 있습니다. <%- (fileExtensions) %>로 끝나는 업로드 할 파일을 선택해 주세요."
+
+#: cms/static/js/models/uploads.js:63
+msgid "or"
+msgstr "또는"
+
+#: cms/static/js/models/xblock_validation.js:23
+msgid "This unit has validation issues."
+msgstr "이 학습활동은 문제가 있습니다."
+
+#: cms/static/js/models/xblock_validation.js:25
+msgid "This component has validation issues."
+msgstr "이 구성 요소는 문제가 있습니다."
+
+#: cms/static/js/views/active_video_upload.js:42
+#: cms/static/js/views/assets.js:210
+msgid "Your file could not be uploaded"
+msgstr "파일을 업로드 할 수 없습니다."
+
+#: cms/static/js/views/active_video_upload_list.js:27
+msgid "Upload Videos"
+msgstr "동영상 업로드"
+
+#: cms/static/js/views/active_video_upload_list.js:29
+msgid "Drag and drop or {spanStart}browse your computer{spanEnd}."
+msgstr "끌어서 놓거나 {spanStart}내 컴퓨터에서 찾아보기{spanEnd}."
+
+#: cms/static/js/views/active_video_upload_list.js:56
+msgid "Maximum file size: {maxFileSize} GB"
+msgstr "최대 파일 크기: {maxFileSize} GB"
+
+#: cms/static/js/views/active_video_upload_list.js:62
+msgid "Supported file types: {supportedVideoTypes}"
+msgstr "지원되는 파일 형식: {supportedVideoTypes}"
+
+#: cms/static/js/views/active_video_upload_list.js:155
+msgid "Your video uploads are not complete."
+msgstr "동영상 업로드가 완료되지 않았습니다."
+
+#: cms/static/js/views/active_video_upload_list.js:296
+msgid "Upload completed for video {fileName}"
+msgstr "동영상 {fileName} 업로드 완료"
+
+#: cms/static/js/views/active_video_upload_list.js:330
+#: cms/static/js/views/active_video_upload_list.js:354
+msgid "Upload failed for video {fileName}"
+msgstr "동영상 {fileName} 업로드 실패"
+
+#: cms/static/js/views/active_video_upload_list.js:383
+msgid ""
+"{filename} is not in a supported file format. Supported file formats are "
+"{supportedFileFormats}."
+msgstr "{filename}은 지원하지 않는 파일 형식입니다. 지원되는 형식은 {supportedFileFormats} 입니다."
+
+#: cms/static/js/views/active_video_upload_list.js:390
+msgid "{filename} exceeds maximum size of {maxFileSizeInGB} GB."
+msgstr "{filename}은 최대 사이즈인 {maxFileSizeInGB} GB를 초과하였습니다."
+
+#: cms/static/js/views/active_video_upload_list.js:425
+msgid ": video upload complete."
+msgstr ": 동영상 업로드가 완료되었습니다."
+
+#: cms/static/js/views/active_video_upload_list.js:434
+msgid "Previous Uploads table has been updated."
+msgstr "기존 업로드 표가 업데이트 되었습니다."
+
+#: cms/static/js/views/asset.js:51
+msgid "Delete File Confirmation"
+msgstr "파일 삭제 확인"
+
+#: cms/static/js/views/asset.js:52
+msgid ""
+"Are you sure you wish to delete this item. It cannot be reversed!\n"
+"\n"
+"Also any content that links/refers to this item will no longer work (e.g. broken images and/or links)"
+msgstr "삭제하시겠습니까? 되돌릴 수 없음에 주의하세요.\n\n또한 이 항목에 링크하거나 참조한 콘텐츠도 이용할 수 없습니다.(예. 깨진 이미지 혹은 링크로 나타나게 될 것입니다.)"
+
+#: cms/static/js/views/asset.js:62
+msgid "Your file has been deleted."
+msgstr "파일이 삭제되었습니다."
+
+#: cms/static/js/views/assets.js:111
+msgid "Date Added"
+msgstr "추가된 날짜"
+
+#: cms/static/js/views/assets.js:112
+msgid "Type"
+msgstr "종류"
+
+#: cms/static/js/views/assets.js:197
+msgid "File {filename} exceeds maximum size of {maxFileSizeInMBs} MB"
+msgstr "{filename} 파일은 최대 사이즈인 {maxFileSizeInMBs} MB를 초과하였습니다."
+
+#: cms/static/js/views/assets.js:204
+msgid ""
+"Please follow the instructions here to upload a file elsewhere and link to "
+"it: {maxFileSizeRedirectUrl}"
+msgstr "파일을 업로드하고 링크하기 위해 다음 안내를 따라 하세요: {maxFileSizeRedirectUrl}"
+
+#: cms/static/js/views/assets.js:216
+msgid "Max file size exceeded"
+msgstr "최대 파일 크기를 초과했습니다."
+
+#: cms/static/js/views/assets.js:334 cms/static/js/views/assets.js:348
+msgid "Upload New File"
+msgstr "파일 업로드"
+
+#: cms/static/js/views/assets.js:339 cms/static/js/views/assets.js:353
+msgid "Load Another File"
+msgstr "추가 파일 업로드"
+
+#: cms/static/js/views/components/add_xblock.js:70
+#: cms/static/js/views/utils/xblock_utils.js:51
+msgid "Adding"
+msgstr "추가"
+
+#: cms/static/js/views/container.js:146
+msgid "{startTag}{requestToken}{endTag}{selector}"
+msgstr "{startTag}{requestToken}{endTag}{selector}"
+
+#: cms/static/js/views/course_info_update.js:236
+msgid "Are you sure you want to delete this update?"
+msgstr "이 업데이트를 삭제하기를 원하십니까?"
+
+#: cms/static/js/views/course_rerun.js:52
+msgid "Create Re-run"
+msgstr "강좌 재개강하기"
+
+#: cms/static/js/views/course_rerun.js:59
+msgid "Processing Re-run Request"
+msgstr "Re-run 요청을 처리합니다."
+
+#: cms/static/js/views/course_video_settings.js:25
+msgid "An error has occurred. Wait a few minutes, and then try again."
+msgstr "오류가 발생했습니다. 잠시 후에 다시 시도하세요."
+
+#: cms/static/js/views/course_video_settings.js:304
+msgid "Select turnaround"
+msgstr "turnaround 선택"
+
+#: cms/static/js/views/course_video_settings.js:332
+msgid "Select fidelity"
+msgstr "충실도 선택"
+
+#: cms/static/js/views/course_video_settings.js:384
+#: cms/static/js/views/course_video_settings.js:420
+msgid "Select language"
+msgstr "언어 선택"
+
+#: cms/static/js/views/course_video_settings.js:472
+msgid "Press Remove to remove language"
+msgstr "지우기를 눌러 언어를 삭제"
+
+#: cms/static/js/views/course_video_settings.js:482
+msgid "Settings updated"
+msgstr "설정 업데이트됨"
+
+#: cms/static/js/views/course_video_settings.js:491
+msgid "Last updated"
+msgstr "최근 업데이트"
+
+#: cms/static/js/views/course_video_settings.js:554
+msgid "Required"
+msgstr "필수 입력 사항"
+
+#: cms/static/js/views/course_video_settings.js:681
+msgid "Automatic transcripts are disabled."
+msgstr "자동자막이 비활성화 돼있습니다."
+
+#: cms/static/js/views/course_video_settings.js:718
+msgid "{selectedProvider} credentials saved"
+msgstr "{selectedProvider} 보증서 저장됨"
+
+#: cms/static/js/views/edit_chapter.js:62
+msgid "Upload a new PDF to “<%- name %>”"
+msgstr "\"<%- name %>\" 이름을 가진 새로운 pdf 파일 업로드"
+
+#: cms/static/js/views/edit_chapter.js:64
+msgid "Please select a PDF file to upload."
+msgstr "업로드할 PDF 파일을 선택하세요."
+
+#: cms/static/js/views/export.js:312
+msgid "There has been an error while exporting."
+msgstr "내보내기 중, 오류가 발생했습니다."
+
+#: cms/static/js/views/export.js:313
+msgid ""
+"There has been a failure to export to XML at least one component. It is "
+"recommended that you go to the edit page and repair the error before "
+"attempting another export. Please check that all components on the page are "
+"valid and do not display any error messages."
+msgstr "XML로 강좌를 내보내기하는데 오류가 발생했습니다. 모든 구성요소를 확인해보세요."
+
+#: cms/static/js/views/export.js:320
+msgid "Correct failed component"
+msgstr "실패한 구성요소 수정하기"
+
+#: cms/static/js/views/export.js:327
+msgid "Return to Export"
+msgstr "내보내기로 돌아가기"
+
+#: cms/static/js/views/export.js:336
+msgid ""
+"Your library could not be exported to XML. There is not enough information "
+"to identify the failed component. Inspect your library to identify any "
+"problematic components and try again."
+msgstr "콘텐츠 보관함을 XML로 내보낼 수 없습니다. 내보내기에 실패한 구성요소를 식별할 정보가 부족합니다. 모든 문제 가능성이 있는 구성요소를 찾아내기 위해 콘텐츠 보관함을 확인하고, 내보내기를 다시 시도하세요. "
+
+#: cms/static/js/views/export.js:339
+msgid "Take me to the main library page"
+msgstr "콘텐츠 보관함으로 갑니다."
+
+#: cms/static/js/views/export.js:341
+msgid ""
+"Your course could not be exported to XML. There is not enough information to"
+" identify the failed component. Inspect your course to identify any "
+"problematic components and try again."
+msgstr "콘텐츠 보관함을 XML로 내보낼 수 없습니다. 내보내기에 실패한 구성요소를 식별할 정보가 부족합니다. 모든 문제 가능성이 있는 구성요소를 찾아내기 위해 콘텐츠 보관함을 확인하고, 내보내기를 다시 시도하세요. "
+
+#: cms/static/js/views/export.js:344
+msgid "Take me to the main course page"
+msgstr "메인 강좌 페이지로 보냅니다."
+
+#: cms/static/js/views/export.js:346
+msgid "The raw error message is:"
+msgstr "원래의 오류 메시지입니다 : "
+
+#: cms/static/js/views/export.js:348
+msgid "There has been an error with your export."
+msgstr "내보내기에 오류가 발생했습니다."
+
+#. Translators: 'count' is number of groups that the group
+#. configuration contains.
+#: cms/static/js/views/group_configuration_details.js:70
+msgid "Contains {count} group"
+msgid_plural "Contains {count} groups"
+msgstr[0] "{count} 그룹을 포함함"
+
+#: cms/static/js/views/group_configuration_details.js:81
+#: cms/static/js/views/partition_group_details.js:66
+msgid "Not in Use"
+msgstr "사용 안 함"
+
+#. Translators: 'count' is number of units that the group
+#. configuration is used in.
+#. Translators: 'count' is number of locations that the group
+#. configuration is used in.
+#: cms/static/js/views/group_configuration_details.js:89
+#: cms/static/js/views/partition_group_details.js:74
+msgid "Used in {count} location"
+msgid_plural "Used in {count} locations"
+msgstr[0] "{count} 위치에서 사용됨"
+
+#. Translators: this refers to a collection of groups.
+#: cms/static/js/views/group_configuration_item.js:26
+#: cms/static/js/views/group_configurations_list.js:18
+msgid "group configuration"
+msgstr "그룹 설정"
+
+#: cms/static/js/views/group_configurations_list.js:20
+msgid "Add your first group configuration"
+msgstr "첫 그룹 설정 추가"
+
+#: cms/static/js/views/group_configurations_list.js:22
+msgid "You have not created any group configurations yet."
+msgstr "그룹이 전혀 설정되지 않았습니다."
+
+#: cms/static/js/views/instructor_info.js:77
+msgid "Upload instructor image."
+msgstr "교수자 사진 업로드"
+
+#: cms/static/js/views/instructor_info.js:78
+#: cms/static/js/views/settings/main.js:477
+msgid "Files must be in JPEG or PNG format."
+msgstr "파일은 JPEG 혹은 PNG 포맷이어야 합니다."
+
+#: cms/static/js/views/license.js:8
+msgid "All Rights Reserved"
+msgstr "모든 저작권이 보호됩니다."
+
+#: cms/static/js/views/license.js:9
+msgid "You reserve all rights for your work"
+msgstr "저작물에 대한 모든 권리가 보호됩니다."
+
+#: cms/static/js/views/license.js:12
+msgid "Creative Commons"
+msgstr "크리에이티브 커먼즈"
+
+#: cms/static/js/views/license.js:13
+msgid "You waive some rights for your work, such that others can use it too"
+msgstr "다른 사람이 사용할 수 있도록 하는 것과 같은 저작물에 대한 일부 권리를 포기합니다,"
+
+#: cms/static/js/views/license.js:17
+msgid "Version"
+msgstr "버전"
+
+#: cms/static/js/views/license.js:22
+msgid "Attribution"
+msgstr "원 저작권자 표시"
+
+#: cms/static/js/views/license.js:25
+msgid ""
+"Allow others to copy, distribute, display and perform your copyrighted work "
+"but only if they give credit the way you request. Currently, this option is "
+"required."
+msgstr "귀하가 요청한 방식으로 credit을 주었을 경우, 다른 사람이 귀하의 저작물을 복사, 게재, 배포할 수 있도록 허용합니다. 이 선택사항이 지금 필요합니다. "
+
+#: cms/static/js/views/license.js:29
+msgid "Noncommercial"
+msgstr "상업적 이용 금지"
+
+#: cms/static/js/views/license.js:32
+msgid ""
+"Allow others to copy, distribute, display and perform your work - and "
+"derivative works based upon it - but for noncommercial purposes only."
+msgstr "다른 사람이 귀하의 저작물을 복사, 게재, 배포할 수 있도록 허용합니다. 단, 비상업적인 용도에 한합니다. "
+
+#: cms/static/js/views/license.js:35
+msgid "No Derivatives"
+msgstr "원 저작물 변경 사용 금지"
+
+#: cms/static/js/views/license.js:38
+msgid ""
+"Allow others to copy, distribute, display and perform only verbatim copies "
+"of your work, not derivative works based upon it. This option is "
+"incompatible with \"Share Alike\"."
+msgstr "다른 사람이 귀하의 저작물을 복사, 게재, 배포할 수 있도록 허용합니다. 단,  변경하기는 허용하지 않습니다. 이 옵션은 \"비슷하게 공유하기\"와 함께 사용할 수 없습니다. "
+
+#: cms/static/js/views/license.js:42
+msgid "Share Alike"
+msgstr "동일 조건 번경 허락"
+
+#: cms/static/js/views/license.js:45
+msgid ""
+"Allow others to distribute derivative works only under a license identical "
+"to the license that governs your work. This option is incompatible with \"No"
+" Derivatives\"."
+msgstr "라이센스를 표시하는 조건으로,  다른 사람이 귀하의 저작물을 배포할 수 있도록 허용합니다. 이 선택사항은 \"변경 금지\"와 함께 사용할 수 없습니다."
+
+#. Translators: "item_display_name" is the name of the item to be deleted.
+#: cms/static/js/views/list_item.js:51
+msgid "Delete this %(item_display_name)s?"
+msgstr "%(item_display_name)s을 삭제할까요?"
+
+#. Translators: "item_display_name" is the name of the item to be deleted.
+#: cms/static/js/views/list_item.js:56
+msgid "Deleting this %(item_display_name)s is permanent and cannot be undone."
+msgstr "%(item_display_name)s 삭제 후에는 되돌릴 수 없습니다."
+
+#: cms/static/js/views/manage_users_and_roles.js:11
+msgid "There was an error changing the user's role"
+msgstr "사용자의 역할을 변경하는 중에 오류가 발생했습니다."
+
+#: cms/static/js/views/manage_users_and_roles.js:15
+msgid "Error adding user"
+msgstr "사용자를 추가하는데 에러가 발생했습니다."
+
+#: cms/static/js/views/manage_users_and_roles.js:16
+msgid "Error removing user"
+msgstr "사용자를 삭제하는데 에러가 발생했습니다."
+
+#: cms/static/js/views/manage_users_and_roles.js:19
+msgid "A valid email address is required"
+msgstr "유효한 이메일 주소가 필요합니다."
+
+#: cms/static/js/views/manage_users_and_roles.js:20
+msgid "You must enter a valid email address in order to add a new team member"
+msgstr "신규 구성원을 추가하려면 유효한 이메일 주소를 입력해야 합니다"
+
+#: cms/static/js/views/manage_users_and_roles.js:21
+msgid "Return and add email address"
+msgstr "돌아가서 이메일 주소에 추가합니다."
+
+#: cms/static/js/views/manage_users_and_roles.js:24
+msgid "Already a member"
+msgstr "이미 멤버입니다."
+
+#: cms/static/js/views/manage_users_and_roles.js:25
+msgid ""
+"{email} is already on the {container} team. Recheck the email address if you"
+" want to add a new member."
+msgstr "{email}은 이미 {container}팀입니다. 신규 구성원으로 추가하기 위해 이메일을 확인해 주세요."
+
+#: cms/static/js/views/manage_users_and_roles.js:26
+msgid "Return to team listing"
+msgstr "팀 리스트로 돌아갑니다."
+
+#: cms/static/js/views/manage_users_and_roles.js:30
+msgid "Are you sure you want to restrict {email} access to “{container}”?"
+msgstr " {email}이 “{container}” 접근을 제한하시겠습니까?"
+
+#: cms/static/js/views/modals/course_outline_modals.js:121
+msgid "{display_name} Settings"
+msgstr "{display_name} 설정"
+
+#: cms/static/js/views/modals/course_outline_modals.js:202
+msgid "Publish {display_name}"
+msgstr "{display_name} 공개"
+
+#: cms/static/js/views/modals/course_outline_modals.js:209
+msgid "Publish all unpublished changes for this {item}?"
+msgstr "{item} 에 대한 공개되지 않은 변경 사항을 공개하겠습니까?"
+
+#: cms/static/js/views/modals/course_outline_modals.js:215
+msgid "Publish"
+msgstr "게시"
+
+#: cms/static/js/views/modals/course_outline_modals.js:236
+msgid "Highlights for {display_name}"
+msgstr "{display_name}를 위한 하이라이트"
+
+#: cms/static/js/views/modals/course_outline_modals.js:276
+msgid "Enable Course Highlight Emails"
+msgstr "코스 하이라이트 이메일 사용"
+
+#: cms/static/js/views/modals/course_outline_modals.js:294
+msgid "Enable"
+msgstr "유효화"
+
+#: cms/static/js/views/modals/course_outline_modals.js:295
+msgid "Not yet"
+msgstr "아직입니다"
+
+#: cms/static/js/views/modals/course_outline_modals.js:871
+msgid "All Learners and Staff"
+msgstr "전체 학습자와 운영팀"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1177
+msgid "Basic"
+msgstr "기본"
+
+#: cms/static/js/views/modals/course_outline_modals.js:1182
+msgid "Visibility"
+msgstr "공개 설정 "
+
+#. Translators: "title" is the name of the current component being edited.
+#: cms/static/js/views/modals/edit_xblock.js:23
+msgid "Editing: {title}"
+msgstr "수정: {title}"
+
+#: cms/static/js/views/modals/edit_xblock.js:98
+msgid "Plugins"
+msgstr "플러그인"
+
+#: cms/static/js/views/modals/edit_xblock.js:132
+msgid "Unit"
+msgstr "학습활동"
+
+#: cms/static/js/views/modals/edit_xblock.js:134
+msgid "Component"
+msgstr "구성요소"
+
+#: cms/static/js/views/modals/edit_xblock.js:180
+msgid "Studio's having trouble parsing the problem component's content"
+msgstr "스튜디오에서 문제 구성 요소의 내용을 구문 분석하던 중 문제가 발생했습니다."
+
+#: cms/static/js/views/modals/move_xblock_modal.js:37
+msgid "Move"
+msgstr "옯기기"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:38
+msgid "Choose a location to move your component to"
+msgstr "구성요소를 옮길 위치를 선택하세요"
+
+#: cms/static/js/views/modals/move_xblock_modal.js:66
+msgid "Move: {displayName}"
+msgstr "옮기기: {displayName}"
+
+#: cms/static/js/views/modals/validation_error_modal.js:16
+msgid "Validation Error While Saving"
+msgstr "저장하는 동안 에러가 발생했습니다."
+
+#: cms/static/js/views/modals/validation_error_modal.js:21
+msgid "Undo Changes"
+msgstr "변경 취소"
+
+#: cms/static/js/views/modals/validation_error_modal.js:22
+msgid "Change Manually"
+msgstr "수동으로 변경"
+
+#: cms/static/js/views/move_xblock_list.js:33
+msgid "Sections"
+msgstr "주제"
+
+#: cms/static/js/views/move_xblock_list.js:34
+msgid "Subsections"
+msgstr "소주제"
+
+#: cms/static/js/views/move_xblock_list.js:35
+msgid "Units"
+msgstr "학습활동"
+
+#: cms/static/js/views/move_xblock_list.js:36
+msgid "Components"
+msgstr "구성요소"
+
+#: cms/static/js/views/move_xblock_list.js:37
+msgid "Groups"
+msgstr "그룹들"
+
+#: cms/static/js/views/move_xblock_list.js:179
+msgid "This {parentCategory} has no {childCategory}"
+msgstr "이 {parentCategory}은 {childCategory}이 없습니다"
+
+#: cms/static/js/views/move_xblock_list.js:196
+msgid "Course Outline"
+msgstr "강좌 개요"
+
+#: cms/static/js/views/paged_container.js:260
+msgid "Date added"
+msgstr "추가된 날짜"
+
+#. Translators: "title" is the name of the current component or unit being
+#. edited.
+#: cms/static/js/views/pages/container.js:201
+msgid "Editing access for: {title}"
+msgstr "다음에 대한 접근 수정: {title}"
+
+#: cms/static/js/views/pages/container_subviews.js:164
+msgid "Publishing"
+msgstr "출판"
+
+#: cms/static/js/views/pages/container_subviews.js:182
+#: cms/static/js/views/pages/container_subviews.js:184
+msgid "Discard Changes"
+msgstr "변경 취소하기"
+
+#: cms/static/js/views/pages/container_subviews.js:183
+msgid ""
+"Are you sure you want to revert to the last published version of the unit? "
+"You cannot undo this action."
+msgstr "마지막으로 게시된 버전으로 되돌리겠습니까? 이 작업은 취소될 수 없습니다."
+
+#: cms/static/js/views/pages/container_subviews.js:186
+msgid "Discarding Changes"
+msgstr "변경 취소"
+
+#: cms/static/js/views/pages/container_subviews.js:233
+msgid "Hiding from Students"
+msgstr "학습자가 볼 수 없게 합니다."
+
+#: cms/static/js/views/pages/container_subviews.js:236
+msgid "Explicitly Hiding from Students"
+msgstr "학습자에게 보이지 않게 하기 "
+
+#: cms/static/js/views/pages/container_subviews.js:239
+msgid "Inheriting Student Visibility"
+msgstr "학습자 공개 설정 이어받기"
+
+#: cms/static/js/views/pages/container_subviews.js:242
+#: cms/static/js/views/pages/container_subviews.js:244
+msgid "Make Visible to Students"
+msgstr "학습자가 볼 수 있게 합니다."
+
+#: cms/static/js/views/pages/container_subviews.js:243
+msgid ""
+"If the unit was previously published and released to students, any changes "
+"you made to the unit when it was hidden will now be visible to students. Do "
+"you want to proceed?"
+msgstr "비공개 상태에서 변경된 내용이 학습자에게 보일 것입니다. 계속 하시겠습니까?"
+
+#: cms/static/js/views/pages/container_subviews.js:246
+msgid "Making Visible to Students"
+msgstr "학습자가 볼 수 있게 합니다."
+
+#: cms/static/js/views/pages/course_outline.js:185
+msgid "Course Index"
+msgstr "강좌 인덱스"
+
+#: cms/static/js/views/pages/course_outline.js:193
+msgid "There were errors reindexing course."
+msgstr "강좌를 재인덱싱하는 동안 오류가 발생했습니다."
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Hide Previews"
+msgstr "미리보기 숨기기"
+
+#: cms/static/js/views/pages/paged_container.js:45
+msgid "Show Previews"
+msgstr "미리보기 나타내기"
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
+#. ascending"
+#: cms/static/js/views/paging_header.js:52
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} ascending"
+msgstr "{totalItemsCount} 중 {currentItemRange} 을 보여주고 있으며 {assetType} 필터를 거쳤고 {sortName} 의 오름차순 순서에 따라 정리되었습니다."
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, filtered by Images, sorted by Date Added
+#. descending"
+#: cms/static/js/views/paging_header.js:56
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, filtered by "
+"{assetType}, sorted by {sortName} descending"
+msgstr "{totalItemsCount} 중 {currentItemRange} 을 보여주고 있으며 {assetType} 필터를 거쳤고 {sortName} 의 내림차순 순서에 따라 정리되었습니다."
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, sorted by Date Added ascending"
+#: cms/static/js/views/paging_header.js:63
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"ascending"
+msgstr "{totalItemsCount} 중 {currentItemRange} 을 보여주고 있으며 {sortName} 의 오름차순 순서에 따라 정리되었습니다."
+
+#. Translators: sample result:
+#. "Showing 0-9 out of 25 total, sorted by Date Added descending"
+#: cms/static/js/views/paging_header.js:67
+msgid ""
+"Showing {currentItemRange} out of {totalItemsCount}, sorted by {sortName} "
+"descending"
+msgstr "{totalItemsCount} 중 {currentItemRange} 을 보여주고 있으며 {sortName} 의 내림차순 순서에 따라 정리되었습니다."
+
+#. Translators: turns into "25 total" to be used in other sentences, e.g.
+#. "Showing 0-9 out of 25 total".
+#: cms/static/js/views/paging_header.js:98
+msgid "{totalItems} total"
+msgstr "{totalItems} 총계"
+
+#. Translators: This refers to a content group that can be linked to a student
+#. cohort.
+#: cms/static/js/views/partition_group_item.js:24
+#: cms/static/js/views/partition_group_list.js:21
+msgid "content group"
+msgstr "콘텐츠 그룹"
+
+#: cms/static/js/views/partition_group_list.js:23
+msgid "Add your first content group"
+msgstr "첫 콘텐츠 그룹 추가"
+
+#: cms/static/js/views/partition_group_list.js:25
+msgid "You have not created any content groups yet."
+msgstr "어떤 콘텐츠 그룹도 만들지 않았습니다."
+
+#: cms/static/js/views/previous_video_upload.js:76
+msgid "Are you sure you want to remove this video from the list?"
+msgstr "이 동영상을 목록에서 삭제하겠습니까?"
+
+#: cms/static/js/views/previous_video_upload.js:77
+msgid ""
+"Removing a video from this list does not affect course content. Any content "
+"that uses a previously uploaded video ID continues to display in the course."
+msgstr "이 목록에서 동영상을 삭제하는 것은 강좌 콘텐츠에 영향을 주지 않습니다. 기존 업로드된 동영상 ID를 사용하는 콘텐츠는 계속해서 강좌에 표시됩니다."
+
+#: cms/static/js/views/settings/advanced.js:69
+msgid ""
+"Your changes will not take effect until you save your progress. Take care "
+"with key and value formatting, as validation is not implemented."
+msgstr "진도를 저장하기 전에는 변경사항이 적용되지 않을 것입니다. 유효성 검증이 구현되지 않았으므로 키와 값 포멧팅에 주의를 기울이십시요."
+
+#: cms/static/js/views/settings/advanced.js:140
+msgid "Your policy changes have been saved."
+msgstr "변경사항이 저장되었습니다."
+
+#: cms/static/js/views/settings/advanced.js:141
+msgid ""
+"No validation is performed on policy keys or value pairs. If you are having "
+"difficulties, check your formatting."
+msgstr "규정 키나 입력한 값에 대한 확인절차는 따로 없습니다. 오류가 계속 발생한다면 형식을 다시 확인하세요."
+
+#: cms/static/js/views/settings/grader.js:58
+msgid ""
+"For grading to work, you must change all {oldName} subsections to {newName}."
+msgstr "채점을 위해 모든 {oldName} 소주제를 {newName} 로 바꿔야 합니다."
+
+#: cms/static/js/views/settings/main.js:62
+msgid "Course Credit Requirements"
+msgstr "강좌 학점 요구 조건"
+
+#: cms/static/js/views/settings/main.js:63
+msgid "The minimum grade for course credit is not set."
+msgstr "강좌 credit 위한 최소 성적이 설정되지 않았습니다."
+
+#: cms/static/js/views/settings/main.js:155
+msgid "Course pacing cannot be changed once a course has started."
+msgstr "강좌 수강 속도는 강좌 개강 후 수정할 수 없습니다."
+
+#: cms/static/js/views/settings/main.js:223
+msgid "{hours}:{minutes} (current UTC time)"
+msgstr "{hours}:{minutes} (현재 UTC 시각)"
+
+#: cms/static/js/views/settings/main.js:456
+msgid "Upload your course image."
+msgstr "강좌 대표 이미지를 업로드하세요."
+
+#: cms/static/js/views/settings/main.js:462
+msgid "Upload your banner image."
+msgstr "배너 이미지를 업로드하세요."
+
+#: cms/static/js/views/settings/main.js:468
+msgid "Upload your video thumbnail image."
+msgstr "동영상 썸네일 이미지를 업로드하세요."
+
+#: cms/static/js/views/show_textbook.js:33
+msgid "Delete “<%- name %>”?"
+msgstr "\"<%- name %>\"을 삭제하시겠습니까?"
+
+#: cms/static/js/views/show_textbook.js:36
+msgid ""
+"Deleting a textbook cannot be undone and once deleted any reference to it in"
+" your courseware's navigation will also be removed."
+msgstr "교재를 삭제하면 되돌릴 수 없습니다. 삭제 후 강좌 내용 탐색에 들어있는 모든 참조도 함께 삭제될 것입니다."
+
+#: cms/static/js/views/tabs.js:159
+msgid "Delete Page Confirmation"
+msgstr "페이지 삭제 확인"
+
+#: cms/static/js/views/tabs.js:160
+msgid ""
+"Are you sure you want to delete this page? This action cannot be undone."
+msgstr "페이지 삭제를 원하십니까? 삭제된 후 되돌릴 수 없습니다."
+
+#: cms/static/js/views/uploads.js:29
+msgid "Upload"
+msgstr "업로드"
+
+#: cms/static/js/views/uploads.js:121
+msgid "We're sorry, there was an error"
+msgstr "오류가 발생했습니다."
+
+#: cms/static/js/views/utils/create_course_utils.js:8
+msgid ""
+"The combined length of the organization, course number, and course run "
+"fields cannot be more than <%- limit %> characters."
+msgstr "조직, 코스 번호 및 코스 실행 필드의 총 길이는 <%- limit %>자를 초과할 수 없습니다."
+
+#: cms/static/js/views/utils/create_library_utils.js:8
+msgid ""
+"The combined length of the organization and library code fields cannot be "
+"more than <%- limit %> characters."
+msgstr "조직 및 라이브러리 코드 필드의 총 길이는 <%-제한 %>자를 초과할 수 없습니다."
+
+#: cms/static/js/views/utils/move_xblock_utils.js:32
+msgid "Success! \"{displayName}\" has been moved."
+msgstr "성공했습니다! \"{displayName}\"를 성공적으로 옮겼습니다."
+
+#: cms/static/js/views/utils/move_xblock_utils.js:57
+msgid ""
+"Move cancelled. \"{sourceDisplayName}\" has been moved back to its original "
+"location."
+msgstr "옮기기 취소. \"{sourceDisplayName}\"이 원래 위치로 돌아갑니다."
+
+#: cms/static/js/views/utils/move_xblock_utils.js:75
+msgid "Undo move"
+msgstr "옮기기 취소"
+
+#: cms/static/js/views/utils/move_xblock_utils.js:91
+msgid "Take me to the new location"
+msgstr "새 위치로 이동합니다"
+
+#: cms/static/js/views/utils/xblock_utils.js:79
+msgid "Duplicating"
+msgstr "사본 만들기"
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Undo moving"
+msgstr "옮기기 취소"
+
+#: cms/static/js/views/utils/xblock_utils.js:106
+msgid "Moving"
+msgstr "옮기는중"
+
+#: cms/static/js/views/utils/xblock_utils.js:147
+msgid "Deleting this {xblock_type} is permanent and cannot be undone."
+msgstr "이 {xblock_type} 를 삭제하면 다시 복구할 수 없습니다."
+
+#: cms/static/js/views/utils/xblock_utils.js:153
+msgid ""
+"Any content that has listed this content as a prerequisite will also have "
+"access limitations removed."
+msgstr "선수 강좌로 지정된 콘텐츠도 접속 제한이 없습니다."
+
+#: cms/static/js/views/utils/xblock_utils.js:156
+msgid "Delete this {xblock_type} (and prerequisite)?"
+msgstr "이 {xblock_type} (및 선수강좌) 를 삭제하겠습니까?"
+
+#: cms/static/js/views/utils/xblock_utils.js:162
+#: cms/static/js/views/utils/xblock_utils.js:177
+msgid "Yes, delete this {xblock_type}"
+msgstr "예 이 {xblock_type} 을 삭제하겠습니다."
+
+#: cms/static/js/views/utils/xblock_utils.js:171
+msgid "Delete this {xblock_type}?"
+msgstr "이 {xblock_type} 을 삭제하겠습니까?"
+
+#: cms/static/js/views/utils/xblock_utils.js:263
+msgid "section"
+msgstr "주제"
+
+#: cms/static/js/views/utils/xblock_utils.js:265
+msgid "subsection"
+msgstr "소주제"
+
+#: cms/static/js/views/utils/xblock_utils.js:267
+msgid "unit"
+msgstr "학습활동"
+
+#: cms/static/js/views/validation.js:22
+msgid "You've made some changes"
+msgstr "수정 완료"
+
+#: cms/static/js/views/validation.js:23
+msgid "Your changes will not take effect until you save your progress."
+msgstr "저장하기 전에는 변경사항이 적용되지 않습니다."
+
+#: cms/static/js/views/validation.js:24
+msgid "You've made some changes, but there are some errors"
+msgstr "변경 사항 처리 중, 오류가 발생했습니다."
+
+#: cms/static/js/views/validation.js:25
+msgid ""
+"Please address the errors on this page first, and then save your progress."
+msgstr "이 페이지에 있는 오류를 해결한 다음 진도를 저장하십시요."
+
+#: cms/static/js/views/validation.js:117
+msgid "Save Changes"
+msgstr "변경사항 저장"
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:114
+msgid "Please select a file in .srt format."
+msgstr ".srt 파일을 선택해 주세요."
+
+#: cms/static/js/views/video/transcripts/file_uploader.js:193
+msgid "Error: Uploading failed."
+msgstr "오류: 업로딩 실패"
+
+#: cms/static/js/views/video/transcripts/message_manager.js:141
+msgid "Error: Import failed."
+msgstr "오류: 가져오기 실패."
+
+#: cms/static/js/views/video/transcripts/message_manager.js:155
+msgid "Error: Replacing failed."
+msgstr "오류: 바꾸기 실패."
+
+#: cms/static/js/views/video/transcripts/message_manager.js:171
+#: cms/static/js/views/video/transcripts/message_manager.js:185
+msgid "Error: Choosing failed."
+msgstr "오류: 선택하기 실패."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:86
+msgid "Error: Connection with server failed."
+msgstr "오류: 서버와 연결 실패."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:357
+msgid "Link types should be unique."
+msgstr "링크 유형은 유일해야 합니다."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:370
+msgid "Links should be unique."
+msgstr "링크는 유일해야합니다."
+
+#: cms/static/js/views/video/transcripts/metadata_videolist.js:392
+msgid "Incorrect url format."
+msgstr "올바르지 않은  url 형식입니다."
+
+#: cms/static/js/views/video/translations_editor.js:14
+msgid ""
+"Sorry, there was an error parsing the subtitles that you uploaded. Please "
+"check the format and try again."
+msgstr "죄송합니다. 업로드한 자막 파싱에 오류가 발생했습니다. \n포맷을 확인 후 다시 시도하세요."
+
+#: cms/static/js/views/video/translations_editor.js:171
+#: cms/static/js/views/video_transcripts.js:268
+msgid "Are you sure you want to remove this transcript?"
+msgstr "이 자막을 삭제하시겠습니까?"
+
+#: cms/static/js/views/video/translations_editor.js:172
+msgid ""
+"If you remove this transcript, the transcript will not be available for this"
+" component."
+msgstr "자막을 삭제하시면, 이 구성요소에 대해 이 자막을 사용할 수 없게 됩니다."
+
+#: cms/static/js/views/video/translations_editor.js:173
+msgid "Remove Transcript"
+msgstr "자막 지우기"
+
+#: cms/static/js/views/video/translations_editor.js:224
+msgid "Upload translation"
+msgstr "번역 업로드"
+
+#: cms/static/js/views/video_thumbnail.js:31
+msgid "Add Thumbnail"
+msgstr "썸네일 추가"
+
+#: cms/static/js/views/video_thumbnail.js:35
+msgid "Edit Thumbnail"
+msgstr "썸네일 수정"
+
+#. Translators: This is a 2 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:39
+msgid ""
+"{InstructionsSpanStart}{videoImageResoultion}{lineBreak} "
+"{videoImageSupportedFileFormats}{spanEnd}"
+msgstr "{InstructionsSpanStart}{videoImageResoultion}{lineBreak} {videoImageSupportedFileFormats}{spanEnd}"
+
+#: cms/static/js/views/video_thumbnail.js:52
+msgid "Image upload failed"
+msgstr "이미지 업로드 실패"
+
+#. Translators: This is a 3 part text which tells the image requirements.
+#: cms/static/js/views/video_thumbnail.js:64
+msgid ""
+"{ReqTextSpanStart}Requirements{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak}"
+" {videoImageSupportedFileFormats}{spanEnd}"
+msgstr "{ReqTextSpanStart}요구 사항{spanEnd}{lineBreak}{InstructionsSpanStart}{videoImageResoultion}{lineBreak} {videoImageSupportedFileFormats}{spanEnd}"
+
+#. Translators: message will be like 1280x720 pixels
+#: cms/static/js/views/video_thumbnail.js:130
+msgid "{maxWidth}x{maxHeight} pixels"
+msgstr "{maxWidth}x{maxHeight} 픽셀"
+
+#. Translators: message will be like Thumbnail for Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:138
+msgid "Thumbnail for {videoName}"
+msgstr "{videoName}의 썸네일"
+
+#. Translators: message will be like Add Thumbnail - Arrow.mp4
+#: cms/static/js/views/video_thumbnail.js:146
+msgid "Add Thumbnail - {videoName}"
+msgstr "썸네일 추가 - {videoName}"
+
+#. Translators: humanizeDuration will be like 10 minutes, an hour and 20
+#. minutes etc
+#: cms/static/js/views/video_thumbnail.js:172
+msgid "Video duration is {humanizeDuration}"
+msgstr "동영상 재생시간은 {humanizeDuration}"
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minutes"
+msgstr "분"
+
+#: cms/static/js/views/video_thumbnail.js:189
+msgid "minute"
+msgstr "분"
+
+#. Translators: message will be like 15 minutes, 1 minute
+#: cms/static/js/views/video_thumbnail.js:192
+msgid "{minutes} {unit}"
+msgstr "{minutes} {unit}"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "seconds"
+msgstr "초"
+
+#: cms/static/js/views/video_thumbnail.js:198
+msgid "second"
+msgstr "초"
+
+#. Translators: message will be like 20 seconds, 1 second
+#: cms/static/js/views/video_thumbnail.js:201
+msgid "{seconds} {unit}"
+msgstr "{seconds} {unit}"
+
+#. Translators: `and` will be used to combine both miuntes and seconds like
+#. `13 minutes and 45 seconds`
+#: cms/static/js/views/video_thumbnail.js:207
+msgid " and "
+msgstr "그리고"
+
+#: cms/static/js/views/video_thumbnail.js:234
+msgid "Video image upload started"
+msgstr "동영상 이미지 업로드 시작됨"
+
+#: cms/static/js/views/video_thumbnail.js:246
+msgid "Video image upload completed"
+msgstr "동영상 이미지 업로드 성공"
+
+#: cms/static/js/views/video_thumbnail.js:321
+msgid ""
+"This image file type is not supported. Supported file types are "
+"{supportedFileFormats}."
+msgstr "지원하지 않는 이미지 파일 형식입니다. 지원되는 형식은 {supportedFileFormats}입니다."
+
+#. Translators: maxFileSizeInMB will be like 2 MB.
+#: cms/static/js/views/video_thumbnail.js:330
+msgid "The selected image must be smaller than {maxFileSizeInMB}."
+msgstr "이미지 파일 용량은 {maxFileSizeInMB}보다 작아야 합니다."
+
+#. Translators: minFileSizeInKB will be like 2 KB.
+#: cms/static/js/views/video_thumbnail.js:338
+msgid "The selected image must be larger than {minFileSizeInKB}."
+msgstr "이미지 파일 용량은 {minFileSizeInKB}보다 커야 합니다."
+
+#: cms/static/js/views/video_thumbnail.js:366
+msgid "Could not upload the video image file"
+msgstr "동영상 이미지 파일을 업로드할 수 없었습니다."
+
+#: cms/static/js/views/video_thumbnail.js:368
+msgid "Image upload failed. "
+msgstr "이미지 업로드 실패."
+
+#: cms/static/js/views/video_transcripts.js:32
+msgid "The file could not be uploaded."
+msgstr "파일을 업로드 할 수 없었습니다."
+
+#: cms/static/js/views/video_transcripts.js:130
+msgid "Hide transcripts ({transcriptCount})"
+msgstr "자막 감추기 ({transcriptCount})"
+
+#: cms/static/js/views/video_transcripts.js:149
+msgid "Show transcripts ({transcriptCount})"
+msgstr "자막 보이기 ({transcriptCount})"
+
+#: cms/static/js/views/video_transcripts.js:167
+msgid ""
+"This file type is not supported. Supported file type is "
+"{supportedFileFormat}."
+msgstr "지원하지 않는 파일 형식입니다. 지원되는 형식은 {supportedFileFormat} 입니다"
+
+#: cms/static/js/views/video_transcripts.js:228
+msgid "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
+msgstr "{transcriptClientTitle}_{transcriptLanguageCode}.{fileExtension}"
+
+#: cms/static/js/views/video_transcripts.js:269
+msgid ""
+"If you remove this transcript, the transcript will not be available for any "
+"components that use this video."
+msgstr "자막을 삭제하면, 이 동영상을 사용하는 모든 구성요소에서 삭제됩니다."
+
+#: cms/static/js/views/xblock_editor.js:49
+msgid "Editor"
+msgstr "편집기"
+
+#: cms/static/js/views/xblock_editor.js:50
+msgid "Settings"
+msgstr "설정"
+
+#: cms/static/js/views/xblock_outline.js:90
+msgid "New {component_type}"
+msgstr "새 {component_type}"
+
+#: cms/static/js/xblock_asides/structured_tags.js:23
+msgid "Updating Tags"
+msgstr "업데이트 태그"
