@@ -1,11 +1,11 @@
-# FOSS_Final Project
+## FOSS_Final Project
 ## 2반/소프트웨어학과 201820772 김우진
 ## Transifex/open-edX/edX-platform 번역 프로젝트
 ### 1. transifex open-edx/edx-platform 주소:<br> https://www.transifex.com/open-edx/edx-platform/language/ko_KR/
 ### 2. 제가 번역한 문장들만 확인하실 수 있는 링크:<br> https://www.transifex.com/open-edx/search/?q=translator%3AWooJinKim
 
 open-edx 프로젝트 중에서도 edx-platform 영역에서의 미번역 문장들을 번역했다.<br>
-결론적으로, 약 1000개의 string을 번역하였으며, Words 단위론 8622개의 단어를 번역했다.<br><br>
+결론적으로, **약 1000개의 string을 번역하였으며, words 단위론 8622개의 단어를 번역했다.**<br><br>
 ![words](https://user-images.githubusercontent.com/89639926/147556815-096da3dd-4c73-4c70-b071-b909b534dd6d.PNG)<br>
 
 
@@ -20,7 +20,7 @@ edx에는 자유롭게 강의를 들을 수 있는 일반 과정과, 실제 대�
 또한 하버드, 메사추세츠 등 세계 유수의 대학들 뿐만 아니라 MS나 LINUX 재단 등 영향력있는 단체들또한 양질의 강의를 무료로 제공해준다.<br>
 
 ## edX-Platform의 역할?
- 제가 번역한 edX-Platform은 플랫폼이란 이름에서 알 수 있듯, edx 사이트의 행정 업무를 담당하고 있다.<br>
+ 필자가 번역한 edX-Platform은 플랫폼이란 이름에서 알 수 있듯, edx 사이트의 행정 업무를 담당하고 있다.<br>
  - credentials(자격 증명)
  - ecommerce(전자 상거래)
  - account(계정 관리)
@@ -33,9 +33,9 @@ edx에는 자유롭게 강의를 들을 수 있는 일반 과정과, 실제 대�
   교수님이 말씀해주셨듯 오픈 소스의 본질인 누구나 양질의 컨텐츠를 제공 받아 집단 지성을 이용해 이를 더 발전시킨다는 궁극적 목표를 잘 보여준다 생각한다.
   그래서 edX에 기여를 함으로써 더 많은 학우분들이 edX를 통해 양질의 컨텐츠를 제공받는데 도움을 주고 싶었다. 
   
-  이 중에서도 edX-platform을 고른 이유는, 번역 전 edx-platform의 미번역 string이 2350개로 순위권에서 한참 밀려나 있었기 때문이다.<br>
-  대충 원본 resource와 그 내용들을 훝어보니 edX의 가장 기초이자 중요한 내용(e.g. 계정 관리, 강좌 탐색)을 다루고 있다는 걸 알 수 있었다.
-  처음엔 2350개의 string이 너무 많아 돌아갈까 했지만, 다행히 필자 포함 총 3명의 학우분이 edx-platform을 선택해서 도전해볼만 하다 생각했다.<br><br>
+  이 중에서도 edX-platform을 고른 이유는, 번역 전 edx-platform의 미번역 string이 2375개로 순위권에서 한참 밀려나 있었기 때문이다.<br>
+  하지만 대충 원본 resource와 그 내용들을 훝어보니 edX의 가장 기초이자 중요한 내용(e.g. 계정 관리, 강좌 탐색)을 다루고 있다는 걸 알 수 있었다.
+  처음엔 2375개의 string이 너무 많아 돌아갈까 했지만, 다행히 필자 포함 총 3명의 학우분이 edx-platform을 선택해서 도전해볼만 하다 생각했다.<br><br>
  
  # 번역 수행 내용
  
@@ -47,7 +47,7 @@ edx에는 자유롭게 강의를 들을 수 있는 일반 과정과, 실제 대�
  ## 번역 방법
  
  ### 1. 번역한 자막의 문장 종결법
- 문장 종결 어미는 화자의 말투나 느낌을 결정짓는 중요한 요소이다. 그러므로 resource 종류에 상관없이 종결 어미를 어떤 걸 사용할지 고려해야 했다. 필자는 platform의 특성상 사용자에게 특정 행동(e.g. 로그인, 결제)을 요구하는 경우가 많기 때문에, 사용자에게 최대한 정중하게 부탁하는 어투를 사용해야 된다 판단했다. 그래서 종결 어미는 격식체인 "~하십시오" 보단 비격식체인 "~해주세요"를 채택해 사용자에게 좀 더 부드러운 인상을 줄 수 있도록 통일했다. <br><br>
+ 문장 종결 어미는 화자의 말투나 느낌을 결정짓는 중요한 요소이다. 그러므로 resource 종류에 상관없이 종결 어미를 어떤 걸 사용할지 고려해야 했다. 필자는 platform의 특성상 사용자에게 특정 행동(e.g. 로그인, 결제)을 요구하는 경우가 많기 때문에, 사용자에게 최대한 정중하게 부탁하는 어투를 사용해야 된다 판단했다. 그래서 종결 어미는 격식체인 "~하십시오","~하십니까" 보단 비격식체인 "~해주세요","~하나요?"를 채택해 사용자에게 좀 더 부드러운 인상을 줄 수 있도록 통일했다. <br><br>
  
  ![0 jpg](https://user-images.githubusercontent.com/89639926/147548614-4029db60-c7fc-4ceb-a6ca-0e67f019af8f.PNG)<br><br>
 
@@ -66,12 +66,13 @@ edx에는 자유롭게 강의를 들을 수 있는 일반 과정과, 실제 대�
  ### 3. 목적어/주어 생략
   원본에 'your', 'it'과 같은 주어나 목적어를 포함하는 경우가 있어도 한국어로 번역하는 과정에선 문맥상 지칭하는 물체가 확실한 경우 간결성을 위해 과감히 생략했다.
   예를 들어, 다음 문장처럼 "your ID card"라 적혀있어도 회원가입 과정은 수강생 본인 한명을 대상으로 진행하는 것이기 때문에 "귀하의 신분증 사진 업로드"가 아닌 "신분증 업로드"라 표현했다.<br><br>
- ![8](https://user-images.githubusercontent.com/89639926/147552144-6ed5975d-5bfe-4e4f-90f0-94b4b9651f41.PNG)<br><br>
+ ![4](https://user-images.githubusercontent.com/89639926/147577866-930e48b4-4062-4782-b66f-e9e14e70999c.PNG)
+<br><br>
 
   
  ### 4. TAG 안 영단어는 해석하지 않음
   다음과 같이 tag 안에 영단어가 들어있는 경우가 많았다.<br><br>
-  ![9](https://user-images.githubusercontent.com/89639926/147552155-431a6999-1d12-4abb-a82d-6a327e51f4f0.PNG)<br><br>
+  ![9](https://user-images.githubusercontent.com/89639926/147552155-431a6999-1d12-4abb-a82d-6a327e51f4f0.PNG)<br>
 
   이는 인덱싱된 html 요소이거나 지정된 수식일 수도 있기 때문에 번역을 하지 않았다.
   
@@ -109,7 +110,7 @@ edx에는 자유롭게 강의를 들을 수 있는 일반 과정과, 실제 대�
   
   ### 개인 Reports
   ![words](https://user-images.githubusercontent.com/89639926/147556883-6ab445ee-2905-4c1c-a4d0-fef1adb3f510.PNG)<br><br>
-  다른 학우가 번역한 string을 제외하면, 약 1000개의 string을 번역했다. words 단위로는 8622개의 단어를 번역했다<br>
+  다른 학우가 번역한 string을 제외하면, **약 1000개의 string을 번역했다. words 단위로는 8622개의 단어를 번역했다**<br>
   하지만 아직도 약 1000개의 string이 남아있는데, edx-platform을 번역하는 학우가 2명 더 있으므로, edx-platform의 완전 번역을 기대하고 있다.<br>
   
 
@@ -122,4 +123,3 @@ edx에는 자유롭게 강의를 들을 수 있는 일반 과정과, 실제 대�
   Cambridge English Dictionary: https://dictionary.cambridge.org/ko/%EC%82%AC%EC%A0%84/%EC%98%81%EC%96%B4/<br>
   TTA 정보통신용어사전: http://word.tta.or.kr/main.do<br>
   레드키위 영어학습컨텐츠: https://redkiwiapp.com/ko
-
